@@ -1,5 +1,5 @@
 body {
-  background-color: green; 
+  background-image: url(https://wallpaperset.com/w/full/3/e/b/447189.jpg)
 }
   
 .box {
@@ -12,15 +12,15 @@ body {
   }
 
 .off {
-  background-color: lightgray;
+  background-color: black;
 }
 
 .on {
-  background-color: green;
+  background-color: #d320f5;
 }
   
 .box:hover { 
-  background: #00CCFF;
+  background: #23d7fa;
 }
 
 .center {
@@ -47,4 +47,26 @@ h1, h2, h3, h4 {
 
 h4 {
   margin-top: 0px;
+}
+
+.button {
+  margin: 0 5px;
+  border: #d320f5 3px solid;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #d320f5;
+  font-size: 20px;
+  height: 50px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #d320f5;
+  color: black;
+  font-weight: bold;
+
+}
+
+.container {
+  display: flex;
 }
