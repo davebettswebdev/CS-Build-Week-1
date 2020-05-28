@@ -204,7 +204,7 @@ class Container extends React.Component {
     render() {
         return (
             <div>
-                <h1>Conway's Game of Life</h1>
+                <h1><span class="pink">C</span><span class="blue">o</span><span class="pink">n</span><span class="blue">w</span><span class="pink">a</span><span class="blue">y</span><span class="pink">s</span><span> </span><span class="pink">G</span><span class="blue">a</span><span class="pink">m</span><span class="blue">e</span><span></span> <span class="pink">o</span><span class="blue">f</span><span> </span><span class="pink">l</span><span class="blue">i</span><span class="pink">f</span><span class="blue">e</span ></h1>
                 <Buttons
                   playButton={this.playButton}
                   pauseButton={this.pauseButton}
@@ -220,7 +220,7 @@ class Container extends React.Component {
                   cols={this.cols}
                   selectBox={this.selectBox}
                 />
-                <h1>Generations: {this.state.generation}</h1>    
+                <h2>Generations: {this.state.generation}</h2>    
             </div>
         );
     }
