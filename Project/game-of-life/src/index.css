@@ -69,7 +69,8 @@ h4 {
   color: #23d7fa;
   font-size: 20px;
   height: 50px;
-  font-weight: bold;
+  font-family: 'pixeboyregular';
+  letter-spacing: 2px;
 }
 
 .button:hover {
@@ -99,20 +100,22 @@ h4 {
   color: #23d7fa;
   font-size: 20px;
   height: 50px;
-  font-weight: bold;
+  font-family: 'pixeboyregular';
+  letter-spacing: 2px;
 }
 
 #size-menu:hover {
   background-color: #23d7fa;
   color: black;
   font-weight: bold;
+  
 
 }
 
 .pink {
   background-color: #d320f5;
   margin: 13px;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .pink:hover {
@@ -122,7 +125,7 @@ h4 {
 .blue {
   background-color: #23d7fa;
   text-align: center;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .blue:hover {
